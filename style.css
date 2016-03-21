@@ -1,0 +1,23 @@
+body {
+  background-image: url(img/background.jpeg);
+-moz-background-size:contain;
+background-size:contain;
+}
+
+@font-face {
+    font-family: 'PixelMplus12-Bold';
+    src: url('font/PixelMplus12-Bold.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'PixelMplus12-Bold';
+  color: red;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+    background-color: #000000;
+    opacity: 0.8;
+}
